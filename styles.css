@@ -23,7 +23,7 @@ body {
 }
 
 a {
-  color: #9c27b0;
+  color: #58329c;
   text-decoration: none;
   transition-duration: 0.5s;
 }
@@ -74,6 +74,15 @@ a:focus {
   font-size: 1.875rem;
   margin: 1.125rem 0 1.25rem;
   color: var(--secondary-color);
+}
+
+h1 a {
+  color: #de1eff;
+}
+
+h1 a:hover,
+h1 a:focus {
+  filter: brightness(0.9);
 }
 
 .card .card-flip {
@@ -185,5 +194,14 @@ a:focus {
 @media (max-width: 340px) {
   .container {
     height: 38.5rem;
+  }
+
+  .back-card {
+    min-width: 33.8rem;
+    height: 23.65rem;
+  }
+
+  .back-card ul li + li {
+    margin-top: 0.5rem;
   }
 }
