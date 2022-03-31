@@ -80,16 +80,20 @@ body::-webkit-scrollbar {
   box-shadow: 0.5rem 0.5rem 3.25rem 0.75rem rgba(0, 0, 0, 0.6);
 }
 
-.front-card-wrapper header {
-  background-image: url("https://img.freepik.com/vetores-gratis/listras-roxas-abstratas-do-rosa-do-inclinacao-no-fundo-cor-de-rosa-roxo-escuro-do-inclinacao_35756-153.jpg?size=626&ext=jpg");
-  background-size: cover;
-  background-position: top center;
-
+.front-card-wrapper header,
+.back-card-wrapper header {
   border-radius: 0.5rem;
   height: 7.125rem;
 }
 
-.front-card-wrapper header img {
+.front-card-wrapper header {
+  background-image: url("https://img.freepik.com/vetores-gratis/listras-roxas-abstratas-do-rosa-do-inclinacao-no-fundo-cor-de-rosa-roxo-escuro-do-inclinacao_35756-153.jpg?size=626&ext=jpg");
+  background-size: cover;
+  background-position: top center;
+}
+
+.front-card-wrapper header img,
+.back-card-wrapper header div {
   width: 12.25rem;
   height: 12.25rem;
 
@@ -99,7 +103,6 @@ body::-webkit-scrollbar {
 
   border-radius: 100%;
   border: 0.6875rem solid var(--tertiary-color);
-
   transform: translateY(-50%);
 }
 
@@ -112,6 +115,11 @@ body::-webkit-scrollbar {
 
 .back-card-wrapper {
   transform: rotateY(180deg);
+}
+
+.back-card-wrapper header div {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
 }
 
 .front-card-content {
