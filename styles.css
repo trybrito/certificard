@@ -180,7 +180,7 @@ body::-webkit-scrollbar {
   transform-style: preserve-3d;
 }
 
-.front-card-wrapper:hover .front-card-content {
+.front-card-content:hover {
   transform: rotateY(180deg);
 }
 
