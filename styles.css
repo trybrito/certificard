@@ -68,6 +68,7 @@ body::-webkit-scrollbar {
 .front-card-wrapper,
 .back-card-wrapper {
   position: absolute;
+  z-index: 1;
 
   width: 100%;
   padding: 1.25rem;
@@ -110,7 +111,7 @@ body::-webkit-scrollbar {
 .front-card-wrapper header,
 .back-card-wrapper header {
   border-radius: 0.5rem;
-  height: 7.125rem;
+  height: 7.0625rem;
 }
 
 .front-card-wrapper header {
@@ -173,14 +174,13 @@ body::-webkit-scrollbar {
 
 .front-card-content {
   position: relative;
-  z-index: 10;
   height: 22.125rem;
 
   transition: transform 1s;
   transform-style: preserve-3d;
 }
 
-.front-card-content:hover {
+.front-card-wrapper:hover .front-card-content {
   transform: rotateY(180deg);
 }
 
