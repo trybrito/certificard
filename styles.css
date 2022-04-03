@@ -50,8 +50,9 @@ body::-webkit-scrollbar {
 .card {
   position: relative;
 
-  min-height: 42.25rem;
+  min-height: 36.5rem;
   min-width: 41rem;
+  margin-top: 5.875rem;
 
   transform-style: preserve-3d;
   animation: slide-rotating-up 2.5s ease-out;
@@ -61,7 +62,7 @@ body::-webkit-scrollbar {
   from {
     position: absolute;
     bottom: 0;
-    transform: translateY(110%) rotateY(360deg);
+    transform: translateY(120%) rotateY(360deg);
   }
 }
 
@@ -71,8 +72,8 @@ body::-webkit-scrollbar {
   z-index: 1;
 
   width: 100%;
+  height: 100%;
   padding: 1.25rem;
-  margin-top: 5.875rem;
 
   background-color: var(--secondary-color);
   box-shadow: 0.5rem 0.5rem 3.25rem 0.75rem rgba(0, 0, 0, 0.6);
