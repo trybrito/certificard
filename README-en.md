@@ -66,7 +66,7 @@ $ cd .../certificard
 
 <hr>
 
-### 👨🏽‍🎓 Autor
+### 👨🏽‍🎓 Author
 
 <div align="center">
   <img src="https://github.com/trybrito.png" width="250px" />
